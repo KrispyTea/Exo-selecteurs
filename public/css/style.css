@@ -11,7 +11,7 @@ section:nth-child(2) {
     border-bottom: 5px red solid;
 }
 
-section:nth-child(3)>h3,ul {
+section:nth-child(3)>h3,h3 + ul>li {
     color: red;
 }
 
@@ -24,7 +24,8 @@ h3 + span {
 }
 
 img {
-    border-radius: 25%;
+    border-radius: 50%;
+    border: solid;
 }
 
 section:nth-child(7):hover {
